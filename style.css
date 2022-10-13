@@ -25,3 +25,51 @@
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.recipe-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recipe-main-div {
+    margin: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 2em;
+    border: 5px ridge;
+    background-color: rgb(161, 236, 161);
+}
+
+.recipe-desc-img-div {
+    text-align: center;
+}
+
+.recipe-desc-img-div > *,
+.recipe-ingr-steps-div > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recipe-desc-div {
+    width: 50%;
+    text-align: left;
+}
+
+.recipe-img {
+    width: 30em;
+    height: auto;
+    margin-right: 4em;
+    border: 5px ridge;
+}
+
+.recipe-second-title {
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.recipe-par, ul > *, ol > * {
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+}
